@@ -31,4 +31,6 @@ jobs:
             repo: context.repo.repo,
             body: " This is a brand new comment added using github script"
             })
-            
+
+      - run: echo "🎉 The job was automatically triggered by a 
+${{ github.event_name }} event."
